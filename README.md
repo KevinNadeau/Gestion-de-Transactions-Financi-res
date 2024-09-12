@@ -13,7 +13,7 @@ Installation
 
 Clonez le dépôt sur votre machine locale à l'aide de Git : 
 	
- 	git clone https://github.com/votre-utilisateur/
+ 	git clone [https://github.com/votre-utilisateur/](https://github.com/KevinNadeau/Gestion-de-Transactions-Financi-res.git)
 
 Restaurez les dépendances (si nécessaire) :
 	
