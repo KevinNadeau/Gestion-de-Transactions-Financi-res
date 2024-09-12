@@ -20,7 +20,7 @@ namespace Système_de_Gestion_de_Transactions_Financières
 
             //création des transactions
             var depot = new Depot(2, 60000, DateTime.Now);
-            var retrait = new Retrait(3, 900, DateTime.Now);
+            var retrait = new Retrait(3, 8000, DateTime.Now);
 
             //Lancement des transactions
             gestionTransaction.ExecutionTransaction(depot);
