@@ -8,8 +8,7 @@ using Système_de_Gestion_de_Transactions_Financières.Typetransaction;
 
 namespace Système_de_Gestion_de_Transactions_Financières.Services
 {
-    public class GestionTransaction
-    {
+    public class TransactionService    {
         private List<IValidationCondition> _regles = new List<IValidationCondition>();
 
         public void AddRule(IValidationCondition regle)

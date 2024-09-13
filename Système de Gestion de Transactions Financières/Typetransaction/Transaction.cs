@@ -8,14 +8,15 @@ namespace Système_de_Gestion_de_Transactions_Financières.Typetransaction
 {
     public abstract class Transaction
     {
-        public int Id { get; set; }
-        public decimal Amount { get; set; }
+        //mettre les setter en private
+        public string Type { get; set; } 
+        public decimal Montant { get; set; }// Il est de type decimal, car c’est le type de données le plus approprié pour des calculs financiers
         public DateTime Date { get; set; }
 
-        public Transaction(int id, decimal amount, DateTime date)
+        public Transaction(string type, decimal montant, DateTime date)
         {
-            Id = id;
-            Amount = amount;
+            Type = type;
+            Montant = montant;
             Date = date;
         }
 

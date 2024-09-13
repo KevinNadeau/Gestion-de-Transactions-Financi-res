@@ -12,7 +12,7 @@ namespace Système_de_Gestion_de_Transactions_Financières.ConditionValidation
         private const decimal MaxDepot = 10000;
         public bool Validate(Transaction transaction)
         {
-            if (transaction is Depot && transaction.Amount > MaxDepot)
+            if (transaction is Depot && transaction.Montant > MaxDepot)
             {
                 Console.WriteLine("Le dépôt dépasse le montant maximum autorisé.");
                 return false;

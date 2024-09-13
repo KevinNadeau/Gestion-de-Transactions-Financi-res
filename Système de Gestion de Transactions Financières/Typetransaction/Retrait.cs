@@ -8,8 +8,8 @@ namespace Système_de_Gestion_de_Transactions_Financières.Typetransaction
 {
     public class Retrait : Transaction
     {
-        public Retrait(int id, decimal amount, DateTime date)
-            : base(id, amount, date) { }
+        public Retrait(string montant, decimal amount, DateTime date)
+            : base(montant, amount, date) { }
 
         public override string GetTransactionType()
         {
